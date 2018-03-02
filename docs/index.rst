@@ -12,6 +12,15 @@ Welcome to GroundBIRD Map-making documentation!
 
 
 
+Installation
+------------
+
+.. toctree::
+   :maxdepth: 1
+
+   install
+
+
 Indices and tables
 ==================
 
