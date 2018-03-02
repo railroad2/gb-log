@@ -16,16 +16,9 @@ Installation
 ------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    install
-
-Setup
-------------
-
-.. toctree::
-   :maxdepth: 1
-
    install
 
 
