@@ -20,6 +20,23 @@ Installation
 
    install
 
+Setup
+------------
+
+.. toctree::
+   :maxdepth: 1
+
+   install
+
+
+Setup2
+------------
+
+.. toctree::
+   :maxdepth: 1
+
+   setup
+
 
 Indices and tables
 ==================
