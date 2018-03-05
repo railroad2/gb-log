@@ -120,11 +120,4 @@ extensions in place with::
 
 then add the ``healpy/healpy`` folder to your ``PYTHONPATH``.
 
-Clean
------
 
-When you run "python setup.py", temporary build products are placed in the
-"build" directory. If you want to clean out and remove the ``build`` directory,
-then run::
-
-    python setup.py clean --all
