@@ -1,4 +1,5 @@
-logtest
+Sunday 11 March, 2018
 --------
 
-how to use log?
+The first LOG file for this page.
+Nothing to tell.
