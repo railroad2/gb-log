@@ -19,14 +19,13 @@ Installation
 
    install
    
-Markdown test
+reStructuredtext test
 ------------
 
 .. toctree::
    :maxdepth: 2
    
-   marktest
-
+   test 
 
 Setup2
 ------------
