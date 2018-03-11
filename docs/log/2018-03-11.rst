@@ -1,0 +1,4 @@
+logtest
+--------
+
+how to use log?
