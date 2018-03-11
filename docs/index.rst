@@ -11,7 +11,6 @@ Welcome to GroundBIRD Map-making documentation!
    :caption: Contents:
 
 
-
 Installation
 ------------
 
@@ -19,7 +18,14 @@ Installation
    :maxdepth: 2
 
    install
-   install
+   
+Markdown test
+------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   marktest
 
 
 Setup2
