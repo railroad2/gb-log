@@ -19,13 +19,13 @@ Installation
 
    install
    
-reStructuredtext test
+log
 ------------
 
 .. toctree::
    :maxdepth: 2
    
-   test 
+   log/2018-03-11 
 
 Setup2
 ------------
