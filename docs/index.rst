@@ -25,7 +25,7 @@ log
 .. toctree::
    :maxdepth: 2
    
-   log/2018-03-11 
+   dailylog
 
 Setup2
 ------------
