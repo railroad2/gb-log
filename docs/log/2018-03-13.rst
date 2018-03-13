@@ -1,0 +1,19 @@
+Tuesday 13 March, 2018
+========
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+
+1/f noise generation
+--------
+
+- Methods
+    1) White noise filtering
+
+    2) Voss algorithm
+
+    3) Voss-McCartney algorithm
+
+
+
+

@@ -7,3 +7,4 @@ dailylog
     :maxdepth: 2
 
     log/2018-03-11.rst
+    log/2018-03-13.rst
