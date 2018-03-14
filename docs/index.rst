@@ -11,30 +11,13 @@ Welcome to GroundBIRD Map-making documentation!
    :caption: Contents:
 
 
-Installation
-------------
-
-.. toctree::
-   :maxdepth: 2
-
-   install
-   
-log
+daily log
 ------------
 
 .. toctree::
    :maxdepth: 2
    
    dailylog
-
-Setup2
-------------
-
-.. toctree::
-   :maxdepth: 1
-
-   setup
-
 
 Indices and tables
 ==================
