@@ -1,8 +1,8 @@
-Tuesday 13 March, 2018
+Tuesday 14 March, 2018
 ========
 
 Studying algorithm on A&A 127, 555-567 (1998)
---------
+^^
     - Now reading the paper 
 
     - 3.1 Readjusting the offsets of the circles
