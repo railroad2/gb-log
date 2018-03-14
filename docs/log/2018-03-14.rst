@@ -1,0 +1,48 @@
+Tuesday 13 March, 2018
+========
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+    - Now reading the paper 
+
+    - 3.1 Readjusting the offsets of the circles
+        - Adjusting the offsets of each circle, $A_i$
+        - For PLANCK, each data circle crosses 3360 other such circles 
+          in two spots for a 1 year mission.
+        - By imposing that all the differences between signal over 
+          the same sky pixels but observed with different rotation
+          axis of the satellite at different times are minimised. (?)
+        - One key requirement on the scanning strategy:
+            any given circle do not cut all the other circles in just a small
+            number of pixels, in which case the adjusted value for the offset
+            of that circle would depend drastically on the realization of the
+            noise on the pixels used for the adjustment. (why?)
+
+        - procedure
+            - A vector of spin-axis positions on the sky is generated.
+            - For each such position, a vector of beam positions on a circle of
+              radius 70 degree on the sky is generated.
+            - As a result, two dimensional data set corresponding to these
+              beam positions is generated. 
+            - The actual inversion : Least mean square method
+
+            .. math::
+                S(A_i) = \sum_{p \in \text{sky}} \sum _{i_1 = 2} ^{n(p)} 
+                         \sum_{i_2 = 1} ^{i_1 -1} w_{i_1, i_2} \times 
+                         (\delta(i_1, i_2) - A_{i_1} + A_{i_2})^2
+
+            where :math:`\delta(i_1, i_2)` is the estimated difference of offsets 
+            obtained by comparing the measurements of circle :math:`i_2` and 
+            circle :math:`i_1` on pixel :math:`p`, :math:`n(p)` is the number
+            of times pixel :math:`p` is seen by the experiment, and :math:`w_{i_1,i_2}`
+            is a weight attributed to measurement :math:`\delta(i_1, i_2)`.
+
+           
+    
+
+1/f noise generation
+--------
+
+    - About Voss algorithm
+
+
