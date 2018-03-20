@@ -1,0 +1,41 @@
+Tuesday 14 March, 2018
+========
+
+Studying algorithm on A&A 127, 555-567 (1998)
+^^
+
+    How to simulate data.
+        1. Generate 421 x 339 element table of Gaussian random number with rms 1.
+            - Number of circles = 421 and number of samples on each = 339.
+            - 14 month mission and 140 degree scan diameter. 
+            - 1 circle per a day, 1 degree resolution
+
+        2. Add offsets (:math:`A_i`) 
+            - Various types of offsets can be considered.
+                a) no offset (to test that the method does not make additional striping)
+                b) a linear drift of :math:`100i/N_i`
+                c) a sinusoidal drift of :math:`100 \sin (2\pi i / N_i)`
+                d) a sequence of random offsets with an rms of 100
+                e) a random walk of rms 10 per step
+                f) e) without white noise (to check the intrinsic precision of the inversion)
+
+
+    Questions
+        Q1. Why is the weight :math:`2/(n(p)-1)` not :math:`2/n(p)/(n(p)-1)`?
+            - One clue from the paper
+                Note that the weight given to each term in the least-square sum 
+                above is critical to reach this accuracy. For instance, if we put
+                the same weight to each term, too much importance is give to points 
+                on the circles that are close to the north and south ecliptic poles 
+                (because they are "seen" by many more circles than the ones in the 
+                ecliptic), and some residual striping of the order of magnitude
+                of the white noise per pixel remains, because the value of the 
+                offset recovered depends most on the realization of the white noise
+                at points near the poles.
+            - By this weight, total weight for a pixel is proportional to :math:`n(p)` 
+
+
+1/f noise generation
+--------
+
+
