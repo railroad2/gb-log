@@ -36,11 +36,13 @@ Studying algorithm on A&A 127, 555-567 (1998)
             the number of measurements at the pixel.
 
         Q2. Why does the :math:`S(A_i)` function looks like following?
+
             .. math::
                 S(A_i) = \sum_{p \in sky} \sum_{i_1 = 2}^{n(p)} \sum_{i_2=1}^{i_1-1} 
                 w_{i1,i2} \times (\delta(i_1,i_2) - A_{i_1} + A_{i_2})^2
 
             The term in parentheses can be rewritten as 
+
             .. math::
                 \Delta(i_1,i_2) = d_{i_1} - d_{i_2} - A_{i_1} + A_{i_2} \\
                                 = (d_{i_1} - A_{i_1}) - (d_{i_2} - A_{i_2})
@@ -51,12 +53,8 @@ Studying algorithm on A&A 127, 555-567 (1998)
             except the offsets :math:`A_{i_j}`, the measured values for a pixel are all the same.
             In that case, the function :math:`S(A_i)` can be vanished with a proper set of
             offsets :math:`\{A_i\}`. In other words, By minimizing the function :math:`S(A_i)`, 
-            a proper set of `\{A_i\}` can be found. In non-ideal case with noises, the function 
-            can be used in the same way, and the common noise in a circle can be removed by minimizing
-            the function.
-
-        
-        
+            a proper set of `\{A_i\}` can be found. In non-ideal case with noises, the common noise 
+            in a circle can be removed by minimizing the function.
 
 1/f noise generation
 --------
