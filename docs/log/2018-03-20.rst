@@ -66,7 +66,7 @@ Studying algorithm on A&A 127, 555-567 (1998)
     (The reference will be provided by Prof. Won on next Monday).
 
     .. math::
-        P(f) = \frac{\sigma^2}{f_\text{sample}}\left(\frac{f}{f_\text{knee}}}\right)^\alpha
+        P(f) = \frac{\sigma^2}{f_\text{sample}}\left(\frac{f}{f_\text{knee}}\right)^\alpha
 
 
     :math:`\alpha` is usually negtive for this form.
