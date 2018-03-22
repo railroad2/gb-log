@@ -1,4 +1,4 @@
-Tuesday 20 March, 2018
+2018-03-20: Tuesday 20 March, 2018
 ========
 
 Studying algorithm on A&A 127, 555-567 (1998)
@@ -37,13 +37,13 @@ Studying algorithm on A&A 127, 555-567 (1998)
 
         Q2. Why does the :math:`S(A_i)` function looks like following?
 
-            ..math::
+            .. math::
                 S(A_i) = \sum_{p \in sky} \sum_{i_1 = 2}^{n(p)} \sum_{i_2=1}^{i_1-1} 
                 w_{i1,i2} \times (\delta(i_1,i_2) - A_{i_1} + A_{i_2})^2
 
             The term in parentheses can be rewritten as 
 
-            ..math::
+            .. math::
                 \Delta(i_1,i_2) = d_{i_1} - d_{i_2} - A_{i_1} + A_{i_2} \\
                                 = (d_{i_1} - A_{i_1}) - (d_{i_2} - A_{i_2})
 
@@ -65,11 +65,13 @@ Studying algorithm on A&A 127, 555-567 (1998)
     Another form of the pink noise profile (regarding the width of the white noise)
     (The reference will be provided by Prof. Won on next Monday).
 
-    ..math::
+    .. math::
         P(f) = \frac{\sigma^2}{f_\text{sample}}\left(\frac{f}{f_\text{knee}}}\right)^\alpha
 
 
-    :math:`\alpha` is usually negtive.
+    :math:`\alpha` is usually negtive for this form.
+
+
         
 
 
