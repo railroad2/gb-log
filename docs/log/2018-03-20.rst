@@ -2,7 +2,7 @@
 ========
 
 Studying algorithm on A&A 127, 555-567 (1998)
-^^
+--
 
     How to simulate data.
         1. Generate 421 x 339 element table of Gaussian random number with rms 1.
