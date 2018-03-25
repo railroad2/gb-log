@@ -1,0 +1,44 @@
+2018-03-23: Friday, 23 March
+========
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+
+Planck hit map
+
+    - Planck scan strategy (simplified version)
+        1. One circle per day
+            - 339 points on a circle
+            - 140 degree width
+        2. Rotation axis moves 
+            - 1 degrees per day
+            - On the celestial equator
+        3. Rotation axis oscillates
+            - sinusoidally
+            - amplitude = 15 degree
+            - frequency = 8 oscillations per year   
+
+    - calculation strategy
+        0. Define the observation direction vector
+            - The coordinate is ecliptic coordinate
+            - All rotational vectors are in ZYZ convention
+        1. Rotate the vector by 70 degrees w.r.t. y-axis (elevation angle)
+        2. Rotate the vector at 2*pi/86400 w.r.t. z-axis (Planck rotation)
+        3-1. Rotate the vector by 90 degrees w.r.t. y-axis (on the equator)
+        3-2. Rotate the vector by 90-sin(~~~ t) w.r.t. y-axis (oscillating spin axis)
+        4. Rotate the vector by 1 degree/day w.r.t. z-axis (rotation of the earth around the sun)
+
+
+
+
+1/f noise generation
+--------
+
+    How does the FFT scales?
+        Is it affected by the sigma of white noise in time domain?
+
+    .. code:: python 
+        PSD = abs(numpy.fft.fft(d))**2/N/samplingrate
+
+    why?
+

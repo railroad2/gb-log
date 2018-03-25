@@ -4,6 +4,28 @@
 Studying algorithm on A&A 127, 555-567 (1998)
 --------
 
+Plan
+
+1. TOD simulation
+    - with several algorithm
+    - with several types of low frequency.
+2. Generate map with Planck scan.
+    - What is Planck scan?
+        - Simplified one first.
+        - 1 circle per day
+        - 1 degree resolution
+        - The spin axis oscillates sinusoidally with an amplitude of 15 degree and
+        a frequency of 8 oscillates per year
+    - generate Planck Nhit map.
+    - Does it generate the stripes?
+        - compare the cases with and without offsets.
+
+3. Minimizing the least square function. 
+    - To find the set of offsets for scanning circles.
+    
 1/f noise generation
 --------
+
+    How does the FFT scales?
+        Is it affected by the sigma of white noise in time domain?
 
