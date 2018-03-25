@@ -18,7 +18,7 @@ Planck hit map
             - amplitude = 15 degree
             - frequency = 8 oscillations per year   
 
-    - calculation strategy
+    - Direction calculation strategy
         0. Define the observation direction vector
             - The coordinate is ecliptic coordinate
             - All rotational vectors are in ZYZ convention
@@ -28,8 +28,27 @@ Planck hit map
         3-2. Rotate the vector by 90-sin(~~~ t) w.r.t. y-axis (oscillating spin axis)
         4. Rotate the vector by 1 degree/day w.r.t. z-axis (rotation of the earth around the sun)
 
+        - working well.
+        - many empty cells with Nside > 32
+        
+    - Noise generation 
+        1. white noise 
+            numpy random noise function
 
+            .. code:: python
+                nt_white = np.random.normal(mu, sigma, Nsample)
 
+        2. offsets
+            All cases were considered. (implemented)
+                line, sine, random, random walk
+
+    - Map making
+        Planck scan -> noise data assigning -> Planck map 
+
+    - minimizing function :math:`S(A_i)`
+        The function is defined.
+        Minimization function is not yet implemented.
+        Number of parameter = N pixel of healpix map -> Time-consuming process.
 
 1/f noise generation
 --------
