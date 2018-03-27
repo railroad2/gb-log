@@ -1,0 +1,22 @@
+2018-03-27: Tuesday, 27 March
+========
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+
+    Planck map
+        - map visualization
+            mollview
+            course of the pixel? - theta-phi mapping
+            course of the rotation axis - zenith for GB case
+
+Reorganizing my gb-map codes
+--------
+
+    Plan
+        - in this week (March 27, 28, 29)
+        - collecting modules
+        - upload on my github
+        - Comments
+        - 
+

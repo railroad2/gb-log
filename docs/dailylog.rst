@@ -1,4 +1,4 @@
-dailylog
+Dailylog
 ========
 
 2018
@@ -12,3 +12,4 @@ dailylog
     log/2018-03-20.rst
     log/2018-03-22.rst
     log/2018-03-23.rst
+    log/2018-03-27.rst

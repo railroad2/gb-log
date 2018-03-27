@@ -11,7 +11,7 @@ Welcome to GroundBIRD Map-making documentation!
    :caption: Contents:
 
 
-daily log
+Daily log
 ------------
 
 .. toctree::
