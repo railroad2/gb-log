@@ -1,0 +1,75 @@
+2018-03-28: Wednesday, 28 March
+========
+
+GB readout update
+--------
+
+    - Adding multipliers for amplitude adjusting
+        - Vivado 2015.2.1 was setup.
+        - I got source code for the firmware. - It looks fancy.
+        - There are two types of multiplier in Vivado
+            - Complex multiplier
+            - Multiplier
+        - Bit width for the signals
+            - Input I/Q     : 14
+            - Input scale   : 14
+            - Output I/Q    : 14
+        - I am going to test them in a test bench.
+
+    - Resource usage (estimated by ipcore generator)
+        - Multiplier
+            - Using Multipliers(DSP48 slices) : 1
+            - Using LUTs(LUT6s)               : 218
+        - Complex multiplier
+            - Using Multipliers(DSP48 slices) : 3
+            - Using LUTs(LUT6s)               : no information
+
+    - Latency (estimated by ipcore generator)
+        - Multiplier
+            - Using Multipliers : 3
+            - Using LUTs        : 4 
+        - Complex multiplier
+            - Using Multipliers : 6
+            - Using LUTs        : 5
+
+    - Multiplier testbench
+        - Project 'Multiplier_test'
+        - Two multiplier IPs are added.
+        - Test bench is created.
+        - Testing normal multiplier fist. 
+            - Working correctly
+        - Testing complex multiplier
+            - Not working. 
+            - I don't understand why this IP doesnot work.
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+
+    Planck map
+        - map visualization - Pending
+            - mollview
+            - course of the pixel? - theta-phi mapping
+            - course of the rotation axis - zenith for GB case
+
+LTD17 revision
+--------
+    ...
+
+Reorganizing my gb-map codes
+--------
+
+    Plan
+        - in this week (March 27, 28, 29)
+        - collecting modules
+        - modules and arguments 
+        - class-wise modules
+        - comments
+        - upload on my github
+    
+    Progress
+
+
+How to use cosmoMC?
+--------
+    
+    IDK.
