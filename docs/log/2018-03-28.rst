@@ -41,6 +41,8 @@ GB readout update
         - Testing complex multiplier
             - Not working. 
             - I don't understand why this IP doesnot work.
+    - Multipliers for amplitude adjustment are added to firmware.
+        
 
 Studying algorithm on A&A 127, 555-567 (1998)
 --------
@@ -60,14 +62,28 @@ Reorganizing my gb-map codes
 
     Plan
         - in this week (March 27, 28, 29)
-        - collecting modules
+        - collecting modules 
         - modules and arguments 
         - class-wise modules
         - comments
         - upload on my github
     
     Progress
-
+        - Planck_destrip class
+        - initialized with following data 
+            - map_measarr
+                - map_measarr[Npix][n(p)]
+                - contains measured values for circles on the given pixel
+                - Npix = total number of pixel on the map
+                - n(p) = number of measurements on the given pixel
+            - map_ncirarr
+                - map_ncirarr[Npix][n(p)]
+                - contains the circle indices for measurements 
+            - Ncircle
+                - total number of circles
+            - fsamples
+                - number of sampling per circle
+        - 
 
 How to use cosmoMC?
 --------
