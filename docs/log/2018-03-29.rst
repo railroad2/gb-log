@@ -1,0 +1,65 @@
+2018-03-29: Thursday, 29 March
+========
+
+GB readout update
+--------
+
+    - Multipliers for amplitude adjustment are added to firmware.
+        - In/Out data have 16 bit width.
+    - Implementation was completed without any timing constraint errors. 
+    - RBCP function for amplitude is added.
+        - pinc_man - RBCP addr x"4100CCTB"
+            - CC: Channel
+            -  T: Type 0: phase inc., 1: phase offset, 2: amplitude scale
+            -  B: byte number
+        - amps : out phase_array
+    - DDS_inst: dds_scaled
+        - Two multipliers for I and Q
+        - amps (phase_array) -> amps_in (dds_data) -> B for multiplier 
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+
+    Planck map
+        - map visualization - Pending
+            - mollview
+            - course of the pixel? - theta-phi mapping
+            - course of the rotation axis - zenith for GB case
+
+LTD17 revision
+--------
+    ...
+
+Reorganizing my gb-map codes
+--------
+
+    Plan
+        - in this week (March 27, 28, 29)
+        - collecting modules 
+        - modules and arguments 
+        - class-wise modules
+        - comments
+        - upload on my github
+    
+    Progress
+        - Planck_destrip class
+        - initialized with following data 
+            - map_measarr
+                - map_measarr[Npix][n(p)]
+                - contains measured values for circles on the given pixel
+                - Npix = total number of pixel on the map
+                - n(p) = number of measurements on the given pixel
+            - map_ncirarr
+                - map_ncirarr[Npix][n(p)]
+                - contains the circle indices for measurements 
+            - Ncircle
+                - total number of circles
+            - fsamples
+                - number of sampling per circle
+        - Calculation of coefficient matrix (Amat) and vector of combination of delta (dvec).
+        - Inverse matrix (not yet)
+
+How to use cosmoMC?
+--------
+    
+    IDK.
