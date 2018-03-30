@@ -1,0 +1,49 @@
+2018-03-30: Friday, 30 March
+========
+
+GB readout update
+--------
+
+    - DDS_inst: dds_scaled
+        - Two multipliers for I and Q
+        - amps (phase_array) -> amps_in (dds_data) -> B for multiplier 
+        - Timing constraint error occured at the end of a long implementation.
+
+Studying algorithm on A&A 127, 555-567 (1998)
+--------
+
+    Planck map
+        - map visualization - Pending
+            - mollview
+            - course of the pixel? - theta-phi mapping
+            - course of the rotation axis - zenith for GB case
+
+    Progress
+        - Amat is almost singular.
+        - How can the several measurements with one circle be treated?
+            - Consider all degenerated cases - they are actually different measuremets.
+        - After solving above bullet, it works. 
+            - Sign is different. 
+                - delta vector should be inverted. 
+                - L.H.S. to R.H.S.
+         
+
+LTD17 revision
+--------
+    ...
+
+Reorganizing my gb-map codes
+--------
+
+    Plan
+        - in this week (March 27, 28, 29)
+        - collecting modules 
+        - modules and arguments 
+        - class-wise modules
+        - comments
+        - upload on my github
+    
+How to use cosmoMC?
+--------
+    
+    IDK.

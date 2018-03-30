@@ -15,3 +15,4 @@ Dailylog
     log/2018-03-27.rst
     log/2018-03-28.rst
     log/2018-03-29.rst
+    log/2018-03-30.rst
