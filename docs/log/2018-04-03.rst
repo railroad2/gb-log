@@ -1,0 +1,67 @@
+2018-04-03: Monday, 3 April 
+========
+
+In IAC
+--------
+
+    - Three papers
+        - on the optical depth analysis of WMAP and Planck 
+        - on CLASS experiment
+        - on foreground analysis 
+
+    - That's what I can try in this visitation.
+
+    - What are the numbers, 310 uK*sqrt(s) and 530 uK*sqrt(s)?
+        - Ricardo explained them but I didn't fully understand.
+        - 1st priority 
+
+    - Find 'r' from the simulated maps.
+        - I used alm2cl for 'cmb_alm.fits' and r=0
+
+    - I am going to join a Quijote meeting at 1 pm.
+        - Quijote data -> TOD stacked w.r.t. azimuth angle. 
+        - Some gaps in TOD and Map. Why?  
+        - 1/f noise, Knee frequency
+
+    - I discussed again with Ricardo and Alberto about
+        - CLASS paper which explains ILC method for foreground separation
+        - It will be my first work in IAC
+
+    - I also get some sense about
+        - Template fitting
+        - Map making
+        - Destriping
+        - Sensitivity
+        - ...    
+
+GB readout update
+--------
+
+    - DDS_inst: dds_scaled
+        - Timing constraint error occured at the end of a long implementation.
+
+    - DDS_scaler_inst: DDS_scaler
+        - Multiplier is included separately from DDS module.
+        - Implementation is started at 16:30
+        - Timing failure
+
+LTD17 revision
+--------
+    ...
+
+Reorganizing my gb-map codes
+--------
+
+    Plan
+        - in this week (March 27, 28, 29)
+        - collecting modules 
+        - modules and arguments 
+        - class-wise modules
+        - comments
+        - upload on my github
+    
+How to use cosmoMC?
+--------
+    
+    IDK.
+
