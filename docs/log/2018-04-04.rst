@@ -11,13 +11,9 @@ In IAC
 CLASS paper 1801.01481
 --------
     - :math:`\tau` estimation
-    - a power spectrum-based likelihood to simultaneously 
-    clean foregrounds and estimate cosmological parameters 
-    in multipole space 
-    - The universe was ionized by z=6, corresponding to 
-    a lower limit of :math:`\tau \gtrsim 0.038`. (Gunn & Peterson 1965)
-    - :math:`\tau` can be constrained using :math:`C_l^{\text{TE}}` 
-    and :math:`C_l^{\text{EE}}`.
+    - a power spectrum-based likelihood to simultaneously clean foregrounds and estimate cosmological parameters in multipole space 
+    - The universe was ionized by z=6, corresponding to a lower limit of :math:`\tau \gtrsim 0.038`. (Gunn & Peterson 1965)
+    - :math:`\tau` can be constrained using :math:`C_l^{\text{TE}}` and :math:`C_l^{\text{EE}}`.
 
     - Cleaning foregrounds in 
         - Multipole space: ACTPol, BICEP2/Keck, Polarbear, SPTPol
@@ -26,8 +22,7 @@ CLASS paper 1801.01481
 
     - Section 2: simulation data and assumptions
     - Section 3: implementation of the Hamimeche & Lewis pseudo :math:`C_l` likelihood and its efficacy at providing constraints given the simulated data
-    - section 4: implications of a CLASS :math:`\tau` measurement 
-    in the context of external cosmological parameter constraints.
+    - section 4: implications of a CLASS :math:`\tau` measurement in the context of external cosmological parameter constraints.
 
     2. Simulated maps
     
