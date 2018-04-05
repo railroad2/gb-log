@@ -54,7 +54,7 @@ CLASS paper 1801.01481
 .
         * 'Current data do not yet meaningfully constrain the spatial variation of spectral indices within our sky cut.'
 
-        * Using CAMB, they got :math:`C_l^\text{EE}` and :math:`C_l^\text{BB}` with parameters from Planck Int. 2016, :math:`\tau=0.0596` and :math:`\ln (10^10 A_S) = 3.056`. The assumption on :math:`r=0.05`.  
+        * Using CAMB, they got :math:`C_l^\text{EE}` and :math:`C_l^\text{BB}` with parameters from Planck Int. 2016, :math:`\tau=0.0596` and :math:`\ln (10^{10} A_S) = 3.056`. The assumption on :math:`r=0.05`.  
 
         * Map simulation using `HEALPix`'s `synfast`
         * Map as a linear combinations of the components
@@ -64,7 +64,11 @@ CLASS paper 1801.01481
 
         where :math:`g(\nu) \equiv \partial T / \partial T_A = (e^x -1)^2/(x^2e^x)` is the conversion factor from antenna to thermodynamic temperatures, with :math:`x\equiv h\nu/kT_{\text{CMB}} = \nu/(56.78 \text{GHz})`.
 
-
+.
+    3. Analysis Techniques
+        
+        Linear combination 
+        
         
     
 Planck destriping
