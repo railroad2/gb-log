@@ -4,58 +4,61 @@
 In IAC
 --------
 
-    - Let me concentrate the CLASS paper.
-    - Let's test ILC (Internal Linear Combination) 
-    - I can get sense of map making.
+    * Let me concentrate the CLASS paper.
+    * Let's test ILC (Internal Linear Combination) 
+    * I can get sense of map making.
 
 CLASS paper 1801.01481
 --------
-    - :math:`\tau` estimation
-    - a power spectrum-based likelihood to simultaneously clean foregrounds and estimate cosmological parameters in multipole space 
-    - The universe was ionized by z=6, corresponding to a lower limit of :math:`\tau \gtrsim 0.038`. (Gunn & Peterson 1965)
-    - :math:`\tau` can be constrained using :math:`C_l^{\text{TE}}` and :math:`C_l^{\text{EE}}`.
+    * :math:`\tau` estimation
+    * a power spectrum-based likelihood to simultaneously clean foregrounds and estimate cosmological parameters in multipole space 
+    * The universe was ionized by z=6, corresponding to a lower limit of :math:`\tau \gtrsim 0.038`. (Gunn & Peterson 1965)
+    * :math:`\tau` can be constrained using :math:`C_l^{\text{TE}}` and :math:`C_l^{\text{EE}}`.
 
-    - Cleaning foregrounds in 
-        - Multipole space: ACTPol, BICEP2/Keck, Polarbear, SPTPol
-        - Map space: Planck with smoothed map to :math:`\theta \sim 15^\circ`
-    - E-B mixing - PRD 76, 043001 
+    * Cleaning foregrounds in 
 
-    - Section 2: simulation data and assumptions
-    - Section 3: implementation of the Hamimeche & Lewis pseudo :math:`C_l` likelihood and its efficacy at providing constraints given the simulated data
-    - section 4: implications of a CLASS :math:`\tau` measurement in the context of external cosmological parameter constraints.
+        * Multipole space: ACTPol, BICEP2/Keck, Polarbear, SPTPol
+        * Map space: Planck with smoothed map to :math:`\theta \sim 15^\circ`
+    * E-B mixing - PRD 76, 043001 
+
+    * Section 2: simulation data and assumptions
+    * Section 3: implementation of the Hamimeche & Lewis pseudo :math:`C_l` likelihood and its efficacy at providing constraints given the simulated data
+    * section 4: implications of a CLASS :math:`\tau` measurement in the context of external cosmological parameter constraints.
 
     2. Simulated maps
-        - Atacama Desert latitude 
-        - -23 degree, 
-        - scanning 70 % of the sky every day
-        - WMAP P06 Galactic foreground mask -> :math:`f_{\text{sky}}=0.47`
-        - PySM is used to simulate foreground emission 
-            - Thorne, B., et. al., 2017, MNRAS, 469, 2821
-        - Emission laws 
-            - synchrotron
+        * Atacama Desert latitude 
+        * -23 degree, 
+        * scanning 70 % of the sky every day
+        * WMAP P06 Galactic foreground mask -> :math:`f_{\text{sky}}=0.47`
+        * PySM is used to simulate foreground emission 
+            * Thorne, B., et. al., 2017, MNRAS, 469, 2821
+        * Emission laws 
+            * synchrotron
             .. math::
                 {m}^{\nu}_{\text{sync}} = {m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}({\hat{n}})} 
 
-            - dust
+            * dust
             .. math::
                 {m}^{\nu}_{\text{dust}} = {m}_{\text{dust}} \left(\frac{\nu}{\nu_{\text{D}}} \right) ^{\beta_{\text{D}}({\hat{n}}-2)} 
                 \frac{B _\nu [T_D({\hat{n}})]}{B_{\nu_D} [T_D({\hat{n}})]}.
 .
-        - 
+        * 'Current data do not yet meaningfully constrain the spatial variation of spectral indices within our sky cut.'
     
 Planck destriping
 --------
-    - I will present the first result in Lab meeting, 
-    - and will continue this after returning Korea.
+    * I will present the first result in Lab meeting, 
+    * and will continue this after returning Korea.
 
-    - Possible problem
-        - Reorganize the code.
-            - Class of functions.
-            - Input pararmeters externally.
+    * Possible problem
 
-    - planck_map_tod does not work?
+        * Reorganize the code.
 
-    - Matrix equation 
+            * Class of functions.
+            * Input pararmeters externally.
+
+    * planck_map_tod does not work?
+
+    * Matrix equation 
 
 GB readout update
 --------
@@ -64,6 +67,9 @@ LTD17 revision
 --------
     ...
 
+    test::
+        testing 
+    
 Reorganizing my gb-map codes
 --------
 
