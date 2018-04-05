@@ -25,14 +25,12 @@ CLASS paper 1801.01481
     - E-B mixing - PRD 76, 043001 
 
     - Section 2: simulation data and assumptions
-    - Section 3: implementation of the Hamimeche & Lewis pseudo 
-    :math:`C_l` likelihood and its efficacy at providing constraints
-    igven the simulated data
+    - Section 3: implementation of the Hamimeche & Lewis pseudo :math:`C_l` likelihood and its efficacy at providing constraints
+    given the simulated data
     - section 4: implications of a CLASS :math:`\tau` measurement 
     in the context of external cosmological parameter constraints.
 
     2. Simulated maps
-        -  
     
 Planck destriping
 --------
