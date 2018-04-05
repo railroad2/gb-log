@@ -41,8 +41,9 @@ CLASS paper 1801.01481
         - Emission laws 
             - synchrotron
 .. math::
-    \bm{m}^{\nu}_{\text{sync}} = \bm{m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}(\bm{\hat{n}}) \\
-    \bm{m}^{\nu}_{\text{dust}} = \bm{m}_{\text{dust}} \left(\frac{\nu}{\nu_{\text{D}}} \right) ^{\beta_{\text{D}}(\bm{\hat{n}}-2) \frac{B _\nu [T_D(\bm{\hat{n}})]}{B_{\nu_D} [T_D(\bm{\hat{n}})]}.
+    \boldmatm{m}^{\nu}_{\text{sync}} = \boldmath{m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}(\boldmath{\hat{n}}) \\
+    \boldmath{m}^{\nu}_{\text{dust}} = \boldmath{m}_{\text{dust}} \left(\frac{\nu}{\nu_{\text{D}}} \right) ^{\beta_{\text{D}}(\boldmath{\hat{n}}-2) 
+    \frac{B _\nu [T_D(\boldmath{\hat{n}})]}{B_{\nu_D} [T_D(\boldmath{\hat{n}})]}.
 .
         - 
     
