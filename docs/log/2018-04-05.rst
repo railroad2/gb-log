@@ -8,6 +8,12 @@ In IAC
     * Let's test ILC (Internal Linear Combination) 
     * I can get sense of map making.
 
+    * A general question
+
+        * How to get the Q, U from OMT?
+            
+            * I already calculated this, but another formulation is possible.
+
 CLASS paper 1801.01481
 --------
     * :math:`\tau` estimation
@@ -26,13 +32,17 @@ CLASS paper 1801.01481
     * section 4: implications of a CLASS :math:`\tau` measurement in the context of external cosmological parameter constraints.
 
     2. Simulated maps
+
         * Atacama Desert latitude 
         * -23 degree, 
         * scanning 70 % of the sky every day
         * WMAP P06 Galactic foreground mask -> :math:`f_{\text{sky}}=0.47`
         * PySM is used to simulate foreground emission 
+
             * Thorne, B., et. al., 2017, MNRAS, 469, 2821
+
         * Emission laws 
+
             * synchrotron
             .. math::
                 {m}^{\nu}_{\text{sync}} = {m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}({\hat{n}})} 
@@ -43,6 +53,12 @@ CLASS paper 1801.01481
                 \frac{B _\nu [T_D({\hat{n}})]}{B_{\nu_D} [T_D({\hat{n}})]}.
 .
         * 'Current data do not yet meaningfully constrain the spatial variation of spectral indices within our sky cut.'
+
+        * Using CAMB, they got :math:`C_l^\text{EE}` and :math:`C_l^\text{BB}` with parameters from Planck Int. 2016, :math:`\tau=0.0596` and :math:`\ln (10^10 A_S) = 3.056`. The assumption on :math:`r=0.05`.  
+
+        * Map simulation using `HEALPix`'s `synfast`
+        
+        
     
 Planck destriping
 --------
@@ -59,7 +75,7 @@ Planck destriping
     * planck_map_tod does not work?
 
     * Matrix equation 
-
+        
 GB readout update
 --------
 
@@ -67,9 +83,6 @@ LTD17 revision
 --------
     ...
 
-    test::
-        testing 
-    
 Reorganizing my gb-map codes
 --------
 
