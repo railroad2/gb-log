@@ -1,4 +1,4 @@
-2018-04-04: Wednesday, 4 April 
+2018-04-05: Thursday, 5 April 
 ========
 
 In IAC
@@ -32,13 +32,33 @@ CLASS paper 1801.01481
     in the context of external cosmological parameter constraints.
 
     2. Simulated maps
-        -  
+        - Atacama Desert latitude 
+        - -23 degree, 
+        - scanning 70 % of the sky every day
+        - WMAP P06 Galactic foreground mask -> :math:`f_{\text{sky}}=0.47`
+        - PySM is used to simulate foreground emission 
+            - Thorne, B., et. al., 2017, MNRAS, 469, 2821
+        - Emission laws 
+            - synchrotron
+.. math::
+    \bm{m}^{\nu}_{\text{sync}} = \bm{m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}(\bm{\hat{n}}) \\
+    \bm{m}^{\nu}_{\text{dust}} = \bm{m}_{\text{dust}} \left(\frac{\nu}{\nu_{\text{D}}} \right) ^{\beta_{\text{D}}(\bm{\hat{n}}-2) \frac{B _\nu [T_D(\bm{\hat{n}})]}{B_{\nu_D} [T_D(\bm{\hat{n}})]}.
+.
+        - 
     
 Planck destriping
 --------
     - I will present the first result in Lab meeting, 
     - and will continue this after returning Korea.
-    
+
+    - Possible problem
+        - Reorganize the code.
+            - Class of functions.
+            - Input pararmeters externally.
+
+    - planck_map_tod does not work?
+
+    - Matrix equation 
 
 GB readout update
 --------
