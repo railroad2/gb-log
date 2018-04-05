@@ -60,7 +60,7 @@ CLASS paper 1801.01481
         * Map as a linear combinations of the components
         
         .. math:: 
-            \mathbf{m}^{\nu} = g(\nu) \left( \frac{\nu}{\nu_{\text{S}}} \right) ^ \beta_{\text{S}} \mathbf{m}_{\text{sync}} + g(\nu) \left( \frac{\nu}{\nu_{\text{D}}} \right) ^ \beta_{\text{D}} \mathbf{m}_{\text{dust}} + \mathbf{m}_{\text{CMB}}+\mathbf{n}^\nu
+            \mathbf{m}^{\nu} = g(\nu) \left( \frac{\nu}{\nu_{\text{S}}} \right) ^ {\beta_{\text{S}}} \mathbf{m}_{\text{sync}} + g(\nu) \left( \frac{\nu}{\nu_{\text{D}}} \right) ^ {\beta_{\text{D}}} \mathbf{m}_{\text{dust}} + \mathbf{m}_{\text{CMB}}+\mathbf{n}^\nu
 
         where :math:`g(\nu) \equiv \partial T / \partial T_A = (e^x -1)^2/(x^2e^x)` is the conversion factor from antenna to thermodynamic temperatures, with :math:`x\equiv h\nu/kT_{\text{CMB}} = \nu/(56.78 \text{GHz})`.
 
