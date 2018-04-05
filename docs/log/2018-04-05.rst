@@ -45,11 +45,11 @@ CLASS paper 1801.01481
 
             * synchrotron
             .. math::
-                \bm{m}^{\nu}_{\text{sync}} = \bm{m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}({\hat{n}})} 
+                \boldmath{m}^{\nu}_{\text{sync}} = \boldmath{m}_{\text{sync}} \left(\frac{\nu}{\nu_{\text{S}}} \right) ^{\beta_{\text{S}}({\hat{n}})} 
 
             * dust
             .. math::
-                \bm{m}^{\nu}_{\text{dust}} = \bm{m}_{\text{dust}} \left(\frac{\nu}{\nu_{\text{D}}} \right) ^{\beta_{\text{D}}({\hat{n}}-2)} 
+                \boldmath{m}^{\nu}_{\text{dust}} = \boldmath{m}_{\text{dust}} \left(\frac{\nu}{\nu_{\text{D}}} \right) ^{\beta_{\text{D}}({\hat{n}}-2)} 
                 \frac{B _\nu [T_D({\hat{n}})]}{B_{\nu_D} [T_D({\hat{n}})]}.
 .
         * 'Current data do not yet meaningfully constrain the spatial variation of spectral indices within our sky cut.'
@@ -60,9 +60,6 @@ CLASS paper 1801.01481
         * Map as a linear combinations of the components
         
         .. math:: 
-            
-         
-        
         
     
 Planck destriping
