@@ -7,17 +7,24 @@ Welcome to GroundBIRD Map-making documentation!
 ==================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
+Internal Linear Combination
+--------
+
+.. toctree::
+    :maxdepth: 2
+    
+    ILC 
 
 Daily log
 ------------
 
 .. toctree::
-   :maxdepth: 2
-   
-   dailylog
+    :maxdepth: 2
+
+    dailylog
 
 Indices and tables
 ==================

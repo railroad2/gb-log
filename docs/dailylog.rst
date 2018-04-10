@@ -20,4 +20,5 @@ Dailylog
     log/2018-04-03.rst
     log/2018-04-04.rst
     log/2018-04-05.rst
+    log/2018-04-10.rst
 
