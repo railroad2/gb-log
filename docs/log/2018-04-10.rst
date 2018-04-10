@@ -33,7 +33,10 @@ ILC
         * There are two sets of regions.
             1. 12 regions construct the map from a linear combination of the 5 frequency maps. 
             2. 12 nearly corresponding regions used to compute the frequency weights.
+        
         * N_obs map defines # 1 and corresponding weights are
+
+        Simple table:
 
         ====== ========= ========== =========== ========= ======== 
         Region K         Ka         Q           V         W
@@ -58,6 +61,8 @@ ILC
 
         * result
         
+        Simple table:
+
         ======= ========== =========== ============ ========== =========== 
         Region  K          Ka          Q            V          W
         ======= ========== =========== ============ ========== =========== 
