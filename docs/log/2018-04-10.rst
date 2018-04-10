@@ -36,7 +36,7 @@ ILC
         
         * N_obs map defines # 1 and corresponding weights are
 
-        Simple table:
+        .. table::
 
         ====== ========= ========== =========== ========= ======== 
         Region K         Ka         Q           V         W
@@ -61,7 +61,7 @@ ILC
 
         * result
         
-        Simple table:
+        .. table::
 
         ======= ========== =========== ============ ========== =========== 
         Region  K          Ka          Q            V          W
