@@ -1,0 +1,121 @@
+2018-04-10: Monday, 10 April 
+========
+
+In IAC
+--------
+
+    * Let me concentrate on the CLASS paper.
+    * Let's test ILC (Internal Linear Combination) 
+        
+            
+    * I can get sense of map making.
+
+    * A general question
+
+        * How to get the Q, U from OMT?
+            
+            * I already calculated this, but another formulation is possible.
+            * Express |E^2|'s with I, Q and U.
+
+ILC
+--------
+    
+    * I'm testing ILC.
+        
+        * I tested this with simulated WMAP data.
+        * The calculated coefficients are not similar with that of WMAP.
+        * I will test my code with WMAP real data and ILC region mask.  
+
+    * wmap ILC region mask
+
+        * file name: wmap_ilc_rgn_defn_9yr_v5.fits
+        * It is consists of 12 regions. (0 - 11)
+        * There are two sets of regions.
+            1. 12 regions construct the map from a linear combination of the 5 frequency maps. 
+            2. 12 nearly corresponding regions used to compute the frequency weights.
+        * N_obs map defines # 1 and corresponding weights are
+
+        ====== ========= ========== =========== ========= ======== 
+        Region K         Ka         Q           V         W
+        ====== ========= ========== =========== ========= ======== 
+         0     0.1555    -0.7572    -0.2689     2.2845    -0.4138       
+         1     0.0375    -0.5137     0.0223     2.0378    -0.5839       
+         2     0.0325    -0.3585    -0.3103     1.8521    -0.2157       
+         3    -0.0910     0.1741    -0.6267     1.5870    -0.0433       
+         4    -0.0762     0.0907    -0.4273     0.9707     0.4421       
+         5     0.1998    -0.7758    -0.4295     2.4684    -0.4629       
+         6    -0.0880     0.1712    -0.5306     1.0097     0.4378       
+         7     0.1578    -0.8074    -0.0923     2.1966    -0.4547       
+         8     0.1992    -0.1736    -1.8081     3.7271    -0.9446       
+         9    -0.0813    -0.1579    -0.0551     1.2108     0.0836       
+        10     0.1717    -0.8713    -0.1700     2.8314    -0.9618       
+        11     0.2353    -0.8325    -0.6333     2.8603    -0.6298
+        ====== ========= ========== =========== ========= ======== 
+
+        * Temperature map is the bit mask for the region set 2. The region mask for weight calculation of region Nregion can be obtained by bit operation 
+            
+            (int(Temperature) & 2**Nregion)/Nregion
+
+        * result
+        
+        ======= ========== =========== ============ ========== =========== 
+        Region  K          Ka          Q            V          W
+        ======= ========== =========== ============ ========== =========== 
+         0      0.15598249 -0.76840032 -0.2439861   2.25748761 -0.40108368
+         1      0.05580119 -0.64891956  0.20886469  1.94516617 -0.56091249
+         2      0.04870606 -0.43982157 -0.23544233  1.85173357 -0.22517573
+         3     -0.09966721  0.20603962 -0.64156034  1.56001983 -0.02483191
+         4     -0.07788649  0.09463817 -0.42625146  0.96749314  0.44200665
+         5      0.20911408 -0.80954245 -0.4140017   2.48203916 -0.46760909
+         6     -0.08916492  0.16918989 -0.51966519  1.00020806  0.43943216
+         7      0.1592802  -0.82595996 -0.05647229  2.15777996 -0.43462792
+         8      0.20184709 -0.22999038 -1.69476912  3.62890983 -0.90599742
+         9     -0.09951881 -0.10488847 -0.0569166   1.15666325  0.10466064
+        10      0.17670934 -0.92921655 -0.06827675  2.74680974 -0.92602578
+        11      0.2373374  -0.85279317 -0.59759696  2.82748343 -0.6144307 
+        ======= ========== =========== ============ ========== =========== 
+
+
+CLASS paper 1801.01481
+--------
+
+    3. Analysis Techniques
+        
+        Linear combination 
+        
+        
+    
+Planck destriping
+--------
+    * I will present the first result in Lab meeting, 
+    * and will continue this after returning Korea.
+
+    * Possible problem
+
+        * Reorganize the code.
+
+            * Class of functions.
+            * Input pararmeters externally.
+
+    * planck_map_tod does not work?
+
+    * Matrix equation 
+        
+GB readout update
+--------
+
+LTD17 revision
+--------
+    ...
+
+Reorganizing my gb-map codes
+--------
+
+How to use cosmoMC?
+--------
+    
+
+
+
+
+
