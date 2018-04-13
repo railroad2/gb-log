@@ -1,0 +1,34 @@
+2018-04-11: Wednesday 11 April
+========
+
+ILC
+--------
+    - I calculated the variance of the three foreground-cleaned maps.
+        
+        1. WMAP original ILC map 
+            var(m) = 0.005049375
+
+        2. ILC with WMAP coefficients
+            var(m) = 0.004950152
+
+        3. My ILC coefficients 
+            var(m) = 0.004948687
+
+    - My ILC code did the best for given maps. (WMAP data)
+
+    - Why the WMAP original ILC map is different from the reproduced map with WMAP coefficients?
+
+        The map configurations can be different for these cases.
+
+            1. Beam resolution
+
+            2. Map resolution
+
+New cartegorization
+---------
+    
+    Writing all things in daily log looks not the best way.
+    I am trying to separate the notes by topics, and daily log will contain 
+    daily plan and todo's and simple status. 
+
+
