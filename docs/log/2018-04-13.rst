@@ -3,26 +3,19 @@
 
 ILC
 --------
-    - I calculated the variance of the three foreground-cleaned maps.
+
+    Is there a analytic solution to the ILC?
+
+    - The problem
         
-        1. WMAP original ILC map 
-            var(m) = 0.005049375
+        For a given set of scales for foreground maps, can we analytically determine the coefficients to minimize the variance of the linear combination of the maps?
+        Another constraint: sum of all coefficient should be 1.
 
-        2. ILC with WMAP coefficients
-            var(m) = 0.004950152
+    - This problem is very simplified problem which can be applied to a toy model. However, I think it is worth to test. 
 
-        3. My ILC coefficients 
-            var(m) = 0.004948687
-
-    - My ILC code did the best for given maps. (WMAP data)
-
-    - Why the WMAP original ILC map is different from the reproduced map with WMAP coefficients?
-
-        The map configurations can be different for these cases.
-
-            1. Beam resolution
-
-            2. Map resolution
+    - Let's assume that the scales are given by a function or set of numbers :math: `F(\nu)`.
+    
+    - What we want to minimize is 
 
 New cartegorization
 ---------
