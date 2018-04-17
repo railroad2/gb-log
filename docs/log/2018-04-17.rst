@@ -1,0 +1,51 @@
+2018-04-17: Tuesday, 17 April
+========
+
+In IAC
+--------
+
+    - I have four days. 
+    - Tue, Wed, Thu, and Fri
+    - In Friday, I present the result for Quijote group.
+    - I have three days practically.
+    - To do's
+
+        - Forecast
+
+            - Make maps with r > 0. - Tuesday morning 
+
+                - FFP9 (Full Focal Plane simulation # 9) 
+                - What are the parameters?
+                    
+                    - Planck-2015 best fit cosmology.
+                     
+                - CAMB output has no unit
+                    
+                    - by multiplying Tcmb**2, it gets the unit 'K^2'.
+                    - but it does not need in synfast...
+                    - synfast and its anafast are not consistent with Mark's simulation
+
+                        - the scale can be adjusted with beam smoothing.
+                        - 10 < fwhm < 20
+
+            - Toy map test of ILC   - Tuesday morning
+                
+                - Toy map will have non-zero r.
+               
+            - Applying ILC to Quijote and GB maps - Tuesday evening
+            - Likelihood fit 
+
+        - Map making
+
+            - Make TOD in Quijote form - Tuesday afternoon
+            - Test Quijote map making with my TOD
+
+New cartegorization
+---------
+    
+    Writing all things in daily log looks not the best way.
+    I am trying to separate the notes by topics, and daily log will contain 
+    daily plan and todo's and simple status. 
+
+
+

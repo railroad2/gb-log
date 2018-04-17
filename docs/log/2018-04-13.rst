@@ -1,4 +1,4 @@
-2018-04-11: Wednesday 11 April
+2018-04-13: Friday, 13 April
 ========
 
 ILC
@@ -15,7 +15,7 @@ ILC
 
     - Let's assume that the scales are given by a function or set of numbers :math: `F(\nu)`.
     
-    - What we want to minimize is 
+    - What we want to minimize is ... described in Sharelatex
 
 New cartegorization
 ---------
