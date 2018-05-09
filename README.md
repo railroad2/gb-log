@@ -1,1 +1,1 @@
-# gb-mapmake
+# My log for GroundBIRD jobs
