@@ -1,0 +1,64 @@
+2018-05-09: Wednesday, 9 May 
+========
+
+GB pipeline
+--------
+
+Plan
+    1. Organizing existing codes.
+        - refering healpy
+        - collect functions w.r.t. the functions 
+        - functions with arguments
+    2. Flow chart or some better chart to summary the GB pipeline and its development
+        - what to do
+        - systematics
+        - who will do
+        - when, how, why, where, ...
+    3. Logging system
+
+    0. Do the real work. 
+
+ 
+
+Modules
+
+Top : GBpipe (draft)
+
+    - direction (gbdir.py)
+        - observation direction 
+        - parallactic angle calculation
+        - map conversion from equatorial to galactic coordinates. 
+
+    - focal plane information
+        - position on focal plane
+        - observation direction
+        - polarimeter direction
+        - default data file
+        - load data file
+
+    - tod analysis
+
+    - rotation information
+        - rotation speed
+
+    - mapmaking
+        - destriping
+
+    - simulations
+
+direction module
+
+    - what to do?
+        - calculate the observation and polarimeter direction
+
+    - what does it need?
+        - to calculate the observation direction
+            - GB angles
+                - EL, AZ
+                - location of GB
+                - LST
+                    - get from US Navy
+                    - fastest calculation
+                    - from JD
+
+
