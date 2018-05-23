@@ -10,7 +10,7 @@ My log for GroundBIRD works.
     :maxdepth: 2
     :caption: Contents:
 
-Internal Linear Combination
+Internal Linear Combination (ILC)
 --------
 
 .. toctree::
@@ -18,7 +18,15 @@ Internal Linear Combination
     
     ILC 
 
-Daily log
+GBpipe
+--------
+
+.. toctree::
+    :maxdepth: 2
+
+    GBpipe
+
+Daily log (~ 2018-05-09)
 ------------
 
 .. toctree::
