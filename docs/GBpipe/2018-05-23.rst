@@ -4,10 +4,15 @@
 GB pipeline package 
 --------
 
-Progress
+Today
 --------
 
-    *  
+    * Healpy rotation matrix - does not support container argument.
+        - my custom rotation matrix routine for container input
+        - My function for rotation calculation is made.
+            - signs for some terms are reversed than healpix routine. 
+            - My routine is correct.
+            - Why the healpix reverse some sign in off-diagonal terms?
 
 Status
 --------

@@ -1,0 +1,19 @@
+2018-05-31: Thursday, 31 May, 2018
+========
+
+Resume 
+----
+    - arXiv 1801.01481
+    - I could clean foreground with the ILC.
+    - I tried to read Hamimeche 2008. I stopped at section II and will restart it when it is really needed. 
+    - Today I resume the likelihood analysis.
+
+
+To do 
+----
+    1. Copy the foreground cleaned maps. (Simulated WMAP full sky map)
+    *socmb01:~/GroundBIRD/201804_IAC/lk/*
+    2. Calculate power spectrum
+    3. Evaluate covariance :math:`M_f` of angular power spectrum :math:`\hat{C}_l` for the fiducial model :math:`C_{fl}`.
+    4. Test the value :math:`M_{f,(l,l+1)}/M_{f,(l,l)}`. The value in the paper is :math:`\sim 0.1`.
+
