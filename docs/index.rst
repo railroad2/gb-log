@@ -10,6 +10,14 @@ My log for GroundBIRD works.
     :maxdepth: 2
     :caption: Contents:
 
+Forecast
+--------
+
+.. toctree::
+    :maxdepth: 2
+    
+    forecast
+
 Internal Linear Combination (ILC)
 --------
 
